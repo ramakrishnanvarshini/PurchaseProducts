@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-18T15:57:49 BST" name="SwagLabs" finished-at="2022-05-18T15:58:07 BST" duration-ms="17522">
+    <groups>
+    </groups>
+    <test started-at="2022-05-18T15:57:49 BST" name="ProductsPurchase" finished-at="2022-05-18T15:57:53 BST" duration-ms="4183">
+      <class name="swaglabs.SwagLogin">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:swaglabs.SwagLogin@696da30b]" started-at="2022-05-18T15:57:49 BST" name="openUrl" finished-at="2022-05-18T15:57:52 BST" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="swagLoginPage()[pri:0, instance:swaglabs.SwagLogin@696da30b]" started-at="2022-05-18T15:57:52 BST" name="swagLoginPage" finished-at="2022-05-18T15:57:53 BST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swagLoginPage -->
+      </class> <!-- swaglabs.SwagLogin -->
+      <class name="swaglabs.CheckoutComplete">
+        <test-method signature="backToHomeBtn()[pri:0, instance:swaglabs.CheckoutComplete@5ace1ed4]" started-at="2022-05-18T15:57:53 BST" name="backToHomeBtn" finished-at="2022-05-18T15:57:53 BST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomeBtn -->
+      </class> <!-- swaglabs.CheckoutComplete -->
+      <class name="swaglabs.CheckoutInfo">
+        <test-method signature="CheckInfo()[pri:0, instance:swaglabs.CheckoutInfo@66498326]" started-at="2022-05-18T15:57:53 BST" name="CheckInfo" finished-at="2022-05-18T15:57:53 BST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckInfo -->
+      </class> <!-- swaglabs.CheckoutInfo -->
+      <class name="swaglabs.YourCart">
+        <test-method signature="cartCheckout()[pri:0, instance:swaglabs.YourCart@120f102b]" started-at="2022-05-18T15:57:53 BST" name="cartCheckout" finished-at="2022-05-18T15:57:53 BST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartCheckout -->
+      </class> <!-- swaglabs.YourCart -->
+      <class name="swaglabs.CheckoutOV">
+        <test-method signature="checkOV()[pri:0, instance:swaglabs.CheckoutOV@2accdbb5]" started-at="2022-05-18T15:57:53 BST" name="checkOV" finished-at="2022-05-18T15:57:53 BST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOV -->
+      </class> <!-- swaglabs.CheckoutOV -->
+      <class name="swaglabs.Products">
+        <test-method signature="productSelection()[pri:0, instance:swaglabs.Products@732c2a62]" started-at="2022-05-18T15:57:53 BST" name="productSelection" finished-at="2022-05-18T15:57:53 BST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSelection -->
+      </class> <!-- swaglabs.Products -->
+    </test> <!-- ProductsPurchase -->
+    <test started-at="2022-05-18T15:57:53 BST" name="InvalidLoginScenario" finished-at="2022-05-18T15:58:07 BST" duration-ms="13318">
+      <class name="swaglabs.SwagLogin">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:swaglabs.SwagLogin@4d0f2471]" started-at="2022-05-18T15:57:53 BST" name="openUrl" finished-at="2022-05-18T15:57:55 BST" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="invalidUserNameAndValidPassword()[pri:0, instance:swaglabs.SwagLogin@4d0f2471]" started-at="2022-05-18T15:57:55 BST" name="invalidUserNameAndValidPassword" finished-at="2022-05-18T15:58:07 BST" duration-ms="11702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserNameAndValidPassword -->
+      </class> <!-- swaglabs.SwagLogin -->
+    </test> <!-- InvalidLoginScenario -->
+  </suite> <!-- SwagLabs -->
+</testng-results>

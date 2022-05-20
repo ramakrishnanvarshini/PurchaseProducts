@@ -37,4 +37,13 @@
             </class>
         </classes>
     </test> <!-- Test -->
+    <test name="InvalidLoginScenario">
+        <classes>
+            <class name="swaglabs.SwagLogin">
+                <methods>
+                    <include name="invalidUserNameAndValidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite> <!-- Suite -->

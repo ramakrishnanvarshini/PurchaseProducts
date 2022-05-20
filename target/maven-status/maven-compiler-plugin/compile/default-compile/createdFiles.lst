@@ -1,0 +1,11 @@
+pages\saucedemo\SwagLoginPage.class
+pages\saucedemo\CheckoutInfoPage.class
+pages\saucedemo\CheckoutOVPage.class
+base\TestContext.class
+pages\qademo_elements\TextBoxPage.class
+pages\saucedemo\YourCartPage.class
+pages\saucedemo\CheckoutCompletePage.class
+pages\lamda\SignUpPage.class
+pages\qademo_elements\ElementsPage.class
+pages\saucedemo\ProductsPage.class
+utils\Util.class

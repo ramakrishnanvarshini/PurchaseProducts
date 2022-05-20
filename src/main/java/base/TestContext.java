@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TestContext {
 
-    public static WebDriver driver;
+    protected static WebDriver driver;
     protected Properties properties;
     private final String propertyFilePath= "configuration.properties";
 
