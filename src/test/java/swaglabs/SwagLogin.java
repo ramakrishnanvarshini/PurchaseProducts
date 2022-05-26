@@ -22,18 +22,19 @@ public class SwagLogin extends TestContext {
     }
 
     @Test
-    public void invalidUserNameAndValidPassword(){
-        try{
+    public void invalidUserNameAndValidPassword() {
+        try {
             swagLoginPage.userName(properties.getProperty("wrongUserName"));
             swagLoginPage.password(properties.getProperty("wrongPassword"));
             swagLoginPage.submit();
-            Assert.assertEquals(swagLoginPage.actualErrorMessage(),properties.getProperty("errorMsg"),"actual and expected both are same");
-        }catch (AssertionError a){
+            Assert.assertEquals(swagLoginPage.actualErrorMessage(), properties.getProperty("errorMsg"), "actual and expected both are same");
+        } catch (AssertionError a) {
             a.printStackTrace();
         }
     }
+
     @Test
-    public void verifyTotalProducts(){
-        swagLoginPage.totalItems(properties.getProperty("6"));
+    public void verifyTotalProducts() {
+        swagLoginPage.totalItems();
     }
 }
